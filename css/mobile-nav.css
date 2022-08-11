@@ -36,16 +36,20 @@
     justify-content: space-between;
   }
   .main-nav {
-    background-color: rgba(255, 204, 211, 0.9);
+    background-color: rgba(255, 204, 211, 0.9); /* edit last value for opacity*/
     position: absolute;
     right: 0;
     top: 100%;
-    width: 80%;
+    width: 80%; /* edit to 100% for full width menu on mobile*/
     transform-origin: right;
     transform: scale(0, 1);
     text-align: center;
     transition: transform 250ms ease;
     padding: 0;
+  }
+  .main-menu {
+    /* height: 100vh; */
+    /*uncomment this for half height or 100% menu */
   }
   .nav-item {
     width: unset;
@@ -72,8 +76,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-color: rgb(255, 187, 153); */
   }
-  /* middle hamburger line color: white for deb*/
+  /* humburger lines */
+  /* middle hamburger line color: white for deb */
   .toggle-label span {
     display: block;
     width: 1.5rem;
@@ -83,25 +89,30 @@
     border-radius: 5px;
     transition: transform 250ms cubic-bezier(0, 0.37, 0.13, 1.54);
   }
+  /* second and 3rd lines - edit colors and width */
+  /*  1st line = */
   .toggle-label span::before,
 .toggle-label span::after {
     content: "";
     position: absolute;
-    width: 2rem;
-    height: 3px;
-    background-color: red;
+    width: 2rem; /* width can be edited */
+    height: 3px; /* same as width can be edited */
+    background-color: red; /* can be edited */
     top: -10px;
     border-radius: inherit;
   }
+  /*  third line = black */
   .toggle-label span::after {
     top: 10px;
     width: 2rem;
     background-color: #000;
   }
+  /* rotate all lines  */
   .toggle:checked ~ .toggle-label span {
     transform: rotate(135deg);
     width: 100%;
   }
+  /* makes the third line and x */
   .toggle:checked ~ .toggle-label span::before,
 .toggle:checked ~ .toggle-label span::after {
     top: 0px;
@@ -119,14 +130,15 @@
     opacity: 1;
     transition: opacity 250ms ease 250ms;
   }
-  /* rotate on hover  */
+  /* rotate on hover hamburger menu on hover  */
   .toggle:checked:hover ~ .toggle-label span {
     transform: rotate(225deg);
   }
   .main-h2 {
     font-size: 2rem;
   }
-  .olive .home-heropimg {
+  /* transparent and white border around image on mobile view */
+  .olive .home-hero {
     border: 3px solid transparent;
   }
 }
