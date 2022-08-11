@@ -1,12 +1,12 @@
 {
   "name": "sarah-portifolio",
   "version": "1.0.0",
-  "description": "First Steps with materializecss",
+  "description": "my portifolio version 1.0.2",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass-compile": "sass --watch sass:css -q",
-    "devserver": "live-server --port=8082 -q --no-browser",
+    "devserver": "live-server --port=8030 -q --no-browser",
     "start": "npm-run-all --parallel devserver sass-compile"
   },
   "author": "Kae",

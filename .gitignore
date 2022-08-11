@@ -4,4 +4,6 @@
 /sass
 /sass*
 **/sass
-css/main.css.map
+css/mobile-nav.css.map
+sass/mobile-nav.scss
+sass/_globe.scss

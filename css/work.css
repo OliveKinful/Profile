@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  height: 100vh;
 }
 header {
   background-color: #996633;
@@ -48,6 +49,9 @@ main {
   box-sizing: border-box;
   /* border: 2px dotted red; */
   font-size: 20px;
+
+  /*  fills up space on longer screen*/
+  margin-bottom: 25vh;
 }
 span {
 }
