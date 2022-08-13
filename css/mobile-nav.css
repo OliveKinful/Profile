@@ -40,7 +40,7 @@
     position: absolute;
     right: 0;
     top: 100%;
-    width: 80%; /* edit to 100% for full width menu on mobile*/
+    width: 50%; /* edit to 100% for full width menu on mobile*/
     transform-origin: right;
     transform: scale(0, 1);
     text-align: center;
@@ -48,7 +48,7 @@
     padding: 0;
   }
   .main-menu {
-    /* height: 100vh; */
+    /* height: 50vh; */
     /*uncomment this for half height or 100% menu */
   }
   .nav-item {
@@ -85,6 +85,7 @@
     width: 1.5rem;
     height: 3px;
     background-color: #fff;
+    /* background-color: #000; */
     position: relative;
     border-radius: 5px;
     transition: transform 250ms cubic-bezier(0, 0.37, 0.13, 1.54);
@@ -97,7 +98,8 @@
     position: absolute;
     width: 2rem; /* width can be edited */
     height: 3px; /* same as width can be edited */
-    background-color: red; /* can be edited */
+    background-color: red;
+    /* background-color: #000; */
     top: -10px;
     border-radius: inherit;
   }
