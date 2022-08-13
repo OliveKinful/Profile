@@ -53,7 +53,14 @@ main {
   /*  fills up space on longer screen*/
   margin-bottom: 25vh;
 }
-span {
+article p{
+  margin: 15px 10px;
+}
+.Grove p{
+  margin: 15px 10px;
+}
+.Grove h1, h2{
+  margin: 15px 10px;
 }
 .Grove {
   /* border: 2px solid blue; */
