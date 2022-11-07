@@ -53,13 +53,16 @@ main {
   padding: 0 40px;
   box-sizing: border-box;
 }
-article h2 {
-  font-size: 48px;
+article h1 {
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  line-height: 2em;
 }
 article p {
   line-height: 2em;
-  font-size: 16px;
-  font-family: "Patrick Hand", cursive;
+  font-size: 24px;
+  /* font-family: "Patrick Hand", cursive; */
+  color: gray;
 }
 
 section {
@@ -68,22 +71,21 @@ section {
   padding: 0 40px;
   box-sizing: border-box;
   width: 1200px;
+  color: gray;
+  font-size: 24px;
+}
+section h2{
+  font-size: 40px;
+  line-height: 2em;
+  letter-spacing: .09em;
+  color: black;
 }
 .Ekua img {
-  /* border: 2px solid #000; */
   width: 100%;
   display: block;
   max-width: 100%;
-  /* margin-top: 50px; */
-  /* padding: 0 50px 0 500px; */
-  /* position: centre; */
 }
 
-section {
-  /* max-width: 100%;
-    width: 1200px;
-    margin: 80px auto; */
-}
 .section ul li {
   line-height: 2em;
 }
@@ -120,4 +122,5 @@ nav li a:hover {
 .copyright {
   font-size: 25px;
   margin-top: 8px;
+  color: gray;
 }

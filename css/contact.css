@@ -50,17 +50,42 @@ nav li a {
 nav li a:hover {
   text-decoration: underline;
 }
-
+.size-2x{
+  letter-spacing: 0.07em;
+}
+.contact_options{
+  color: gray;
+  font-size: 24px;
+}
+.contact_options h1{
+  letter-spacing: 0.07em;
+  color: black;
+} 
+.contact_options li strong{
+  color: black;
+  letter-spacing: 0.04em;
+}
+.contact_notes strong{
+  font-size: 24px;
+  color: black;
+}
+.contact_notes p{
+  color: gray;
+  font-size: 24px;
+}
 .wrapper {
   box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+  /* border: 2px solid red; */
 }
 
 .wrapper > * {
   padding: 1em;
+  /* border: 2px solid red; */
 }
 
 .company-info {
   background: #f9feff;
+  /* border: 2px solid black; */
 }
 
 .company-info h3,
@@ -98,9 +123,6 @@ nav li a:hover {
   width: 100%;
   padding: 1em;
   border: 1px solid #c9e6ff;
-}
-.contact form textarea {
-  /* width: 100%; */
 }
 .contact form button {
   /* background: #c9e6ff; */
@@ -141,6 +163,7 @@ nav li a:hover {
 .copyright {
   font-size: 25px;
   margin-top: 8px;
+  color: gray;
 }
 /* LARGE SCREENS */
 

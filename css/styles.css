@@ -56,12 +56,13 @@ article h2 {
   margin: 80px auto;
   padding: 0 40px;
   box-sizing: border-box;
-
+  letter-spacing: 0.05em;
   font-size: 48px;
 }
 article p {
   line-height: 2em;
-  font-size: 16px;
+  font-size: 24px;
+  color: gray;
 }
 .olive {
   width: 100%;
@@ -100,4 +101,5 @@ nav li a:hover {
 .copyright {
   font-size: 25px;
   margin-top: 8px;
+  color: gray;
 }
